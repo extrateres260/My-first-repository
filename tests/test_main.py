@@ -1,3 +1,7 @@
-def test_addition():
-  assert 1+1 == 2
-  
+from main import add
+
+def test_add():
+    assert add(2, 3) == 5
+
+def test_add_zero():
+    assert add(0, 0) == 0
