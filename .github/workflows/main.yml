@@ -28,4 +28,4 @@ jobs:
           fi
 
       - name: Run tests
-        run: python pytest
+        run: python -m pytest -q
